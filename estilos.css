@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Estilos para el contenedor principal */
+#contenedor {
+	width: auto; /* Ancho automático */
+	height: auto; /* Altura automática */
+	background: rgb(255, 255, 255); /* Fondo blanco */
+	margin: auto; /* Centrar el contenedor */
+	background-image: url(https://img.freepik.com/vector-premium/fondo-dia-mundial-turismo_23-2149040200.jpg);
+}
+
+/* Estilos para el encabezado */
+header {
+	width: 100%; /* Ancho completo */
+	height: 300px; /* Altura fija */
+	background: rgb(184, 253, 255); /* Color de fondo */
+	display: flex; /* Uso de flexbox */
+	justify-content: center; /* Centra horizontalmente los elementos */
+	align-items: center; /* Centra verticalmente los elementos */
+	background-image: url(https://t3.ftcdn.net/jpg/05/33/39/76/240_F_533397647_DAUHGIF5A1UbzrRYgKMYlTZONDnD1inm.jpg); /* Imagen de fondo */
+}
+
+/* Estilos para la sección del logo y el eslogan */
+#logoyslogan {
+	display: flex; /* Uso de flexbox */
+	align-items: normal; /* Alineación normal */
+	padding: 120px; /* Espaciado interno */
+}
+
+/* Estilos generales para las imágenes */
+img {
+	max-width: 100%; /* Ancho máximo de 100% */
+}
+
+/* Estilos para el logo */
+#logo {
+	display: flex; /* Uso de flexbox */
+	align-items: center; /* Alineación vertical */
+}
+
+/* Estilos para la imagen del logo */
+#logo img {
+	width: 300px; /* Ancho fijo */
+	height: 300px; /* Altura fija */
+	margin: 20px; /* Margen alrededor */
+}
+
+/* Estilos para los enlaces de navegación */
+nav a {
+	color: rgb(255, 255, 255); /* Color blanco */
+	font-size: 20px; /* Tamaño de fuente */
+	text-decoration: none; /* Sin subrayado */
+	padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para los enlaces de navegación cuando se pasa el ratón */
+nav a:hover {
+	color: rgba(0, 255, 179, 0.534); /* Color blanco */
+	font-size: 17px; /* Tamaño de fuente aumentado */
+	background-color: rgba(0, 0, 0, 0.486); /* Fondo negro */
+	border-radius: 60px; /* Bordes redondeados */
+}
+
+/* Estilos para el contenedor principal */
+main {
+	padding: 20px; /**Espaciado interno*/
+	/* background-color: #fcfcfc; fondo blanco */
+	/* box-shadow: 0 0 10px rgb(252, 252, 252); Sombra */
+	/* margin: auto; Margen alrededor */
+	/* max-width: 800px; Ancho 	máximo */
+}
+
+/* Estilos para el carrusel */
+#carousel {
+	position:relative; /* Posición relativa*/
+	/* width: 900%; Ancho completo */
+	max-width: 800px; /*Ancho máximo*/
+	margin: 50px auto; /*Margen alrededor */
+	overflow:hidden; /*Ocultar desbordamiento */ 
+	border-radius: 10px; /*Bordes redondeados*/
+}
+
+/* Contenedor de imágenes del carrusel */
+.carousel-container {
+	display: flex; /* Uso de flexbox */
+	width: 300%; /* Ancho del contenedor */
+	animation: slide 39s infinite; /* Animación de deslizamiento */
+}
+
+/* Definición de la animación de deslizamiento */
+@keyframes slide {
+	/* 0% { transform: translateX(); } */
+	50% { transform: translateX(-100%); }
+	50% { transform: translateX(-150%); }
+	50% { transform: translateX(-126%); }
+	/* 100% { transform: translateX(); } */
+}
+/* Estilos para el pie de página */
+footer {
+	padding: 100px; /* Espaciado interno */
+	background-color: #1bfff457; /* Color de fondo */
+	color: #000000; /* Color del texto */
+	text-align: center; /* Texto centrado */
+}
+
+
+
